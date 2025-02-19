@@ -1,0 +1,284 @@
+<!-- Header Section -->
+<!DOCTYPE html>
+<html data-navigation-type="default" data-navbar-horizontal-shape="default" lang="en-US" dir="ltr"
+  oncontextmenu="return false;">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="google" content="notranslate" />
+  <meta name="robots" content="noarchive, noindex, nosnippet" />
+  <!-- ===============================================-->
+  <!--    Document Title-->
+  <!-- ===============================================-->
+  <title>Capston.Gen</title>
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="./contents/images/apple-touch-icon.webp">
+  <link rel="icon" type="image/png" sizes="32x32" href="./contents/images/favicon-32x32.webp">
+  <link rel="icon" type="image/png" sizes="16x16" href="./contents/images/favicon-16x16.webp">
+  <link rel="shortcut icon" type="image/x-icon" href="./contents/images/favicon.ico">
+  <link rel="manifest" href="./contents/images/manifest.json">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta name="msapplication-TileImage" content="./contents/images/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+  <script src="./scripts/js/imagesloaded.pkgd.min.js"></script>
+  <script src="./scripts/js/simplebar.min.js"></script>
+  <script src="./scripts/js/config.js"></script>
+  <!-- ===============================================-->
+  <!--    Stylesheets-->
+  <!-- ===============================================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="./contents/css/simplebar.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link href="./contents/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
+  <link href="./contents/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
+  <link href="./contents/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
+  <link href="./contents/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+  <link href="./contents/css/leaflet.css" rel="stylesheet">
+  <link href="./contents/css/MarkerCluster.css" rel="stylesheet">
+  <link href="./contents/css/MarkerCluster.Default.css" rel="stylesheet">
+  <link href="./contents/css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+</head>
+<!-- END Header Section -->
+
+<body>
+  <!-- Page Loader -->
+  <div id="global-loader">
+    <div class="whirly-loader"> </div>
+  </div>
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main class="main">
+    <!-- Side Nav Section -->
+    <!-- Nav Bar and Side Bar -->
+    <nav class="navbar navbar-vertical navbar-expand-lg position-fixed">
+      <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
+        <!-- scrollbar removed-->
+        <div class="navbar-vertical-content box_shadow_main">
+          <ul class="navbar-nav flex-column" id="navbarVerticalNav">
+            <li class="nav-item">
+              <!-- label-->
+              <div class="nav-item-wrapper">
+                <a id="page_about" class="nav-link label-1" href="./page-contact/contact.html" role="button"
+                  data-bs-toggle="" aria-expanded="false">
+                  <div class="d-flex align-items-center">
+                    <span class="nav-link-icon">
+                      <i class="svg--about-nav"></i>
+                    </span>
+                    <span class="nav-link-text-wrapper">
+                      <span class="nav-link-text">About</span>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-vertical-footer"><button
+          class="btn navbar-vertical-toggle border-0 fw-semibold w-100 white-space-nowrap d-flex align-items-center"><span
+            class="uil uil-left-arrow-to-left fs-8"></span><span class="uil uil-arrow-from-right fs-8"></span><span
+            class="navbar-vertical-footer-text ms-2"></span></button></div>
+    </nav>
+    <nav class="fixed-top navbar navbar-top navbar-expand conta" id="navbarDefault"
+      style="position: fixed;top: 0; width: 100%;">
+      <div class="collapse navbar-collapse justify-content-between">
+        <div class="navbar-logo" data-aos="fade-right" data-aos-duration="2200">
+          <button class="btn navbar-toggler navbar-toggler-humburger-icon hover-bg-transparent" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse"
+            aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span
+                class="toggle-line"></span></span></button>
+          <a class="navbar-brand me-1 me-sm-3" href="./index.html">
+            <div class="d-flex align-items-center">
+              <div class="d-flex align-items-center">
+                <img src="./contents/images/logo.webp" alt="phoenix" width="27" />
+                <p class="sideNavProg logo-text ms-2 d-none d-sm-block navTitleProgColor fw-bold">Capston.</p>
+                <p class="sideNavDev logo-text d-none d-sm-block m-0 p-0 navTitleDevColor fw-bold">Gen</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <ul class="navbar-nav navbar-nav-icons flex-row" data-aos="fade-left" data-aos-duration="2200">
+          <li class="nav-item">
+            <div class="theme-control-toggle fa-icon-wait px-2">
+              <input class="form-check-input ms-0 theme-control-toggle-input" type="checkbox" data-theme-control="Theme"
+                value="dark" id="themeControlToggle" />
+              <label class="mb-0 theme-control-toggle-label theme-control-toggle-light" for="themeControlToggle"
+                data-bs-toggle="tooltip" data-bs-placement="left">
+                <span class="icon" data-feather="moon"></span>
+              </label>
+              <label class="mb-0 theme-control-toggle-label theme-control-toggle-dark" for="themeControlToggle"
+                data-bs-toggle="tooltip" data-bs-placement="left">
+                <span class="icon" data-feather="sun"></span>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END Nav Bar and Side Bar -->
+    <!-- Div Wrapper Content -->
+    <div class="content pb-3">
+      <!-- PicTsur Landing Page -->
+      <section class="bg-body-emphasis py-4 px-4 avProfile_border box_shadow_main rounded-2" id="home">
+        <div class="container-small hero-header-container py-lg-4 px-lg-4 py-xxl-4 py-xxl-4">
+          <div class="row align-items-center d-flex justify-content-center flex-wrap">
+            <div class="row g-5 p-0 m-0">
+              <div class="col-12 col-xl-4 p-0 m-0">
+                <div class="row g-2">
+                  <div class="col-12 col-xl-12">
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h4 class="card-title mb-4">Generate</h4>
+                        <div class="row gx-3">
+                          <div class="col-12 col-sm-6 col-xl-12">
+                            <div class="mb-4">
+                              <div class="d-flex flex-wrap mb-2">
+                                <h5 class="mb-0 text-body-highlight me-2">Industry</h5>
+                              </div>
+                              <select id="industry" class="form-select mb-3" aria-label="category">
+                                <option value="">-- Select Industry --</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-6 col-xl-12">
+                            <div class="mb-4">
+                              <div class="d-flex flex-wrap mb-2">
+                                <h5 class="mb-0 text-body-highlight me-2">Application</h5>
+                              </div>
+                              <select id="application" class="form-select mb-3" aria-label="category">
+                                <option value="">-- Select Application Type --</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-12 col-xl-12">
+                            <div class="mb-4">
+                              <button id="generateBtn" class="btn btn-sm btn-primary w-100" role="button">Generate Title</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="noresult" class="col-12 col-xl-8 mt-lg-0 mt-xxl-0 px-lg-4 align-content-center">
+                <div class="col-12 text-center d-flex justify-content-center">
+                  <dotlottie-player src="https://lottie.host/2f7a9d33-2006-4e52-b7ac-3a37ca956082/rLRHqPYO3l.lottie"
+                    background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+                </div>
+              </div>
+              <div id="output" class="col-12 col-xl-8 mt-lg-0 mt-xxl-0 px-lg-4 d-none">
+                <h4 class="mb-3">Title</h4>
+                <h5 id="generatedTitle" class="text-body-tertiary fw-semibold text-word-break text-justify"></h5>
+                <div class="mt-3">
+                  <h4 class="">Technologies (Recommendation)</h4>
+                  <ul class="list-unstyled ms-3">
+                    <li>
+                      <h5 class="badge badge-phoenix badge-phoenix-primary">Front-end</h5>
+                      <p id="frontendTech" class="text-muted ms-3"></p>
+                    </li>
+                    <li>
+                      <h5 class="badge badge-phoenix badge-phoenix-success">Backend</h5>
+                      <p id="backendTech" class="text-muted ms-3"></p>
+                    </li>
+                    <li>
+                      <h5 class="badge badge-phoenix badge-phoenix-info">Database</h5>
+                      <p id="databaseTech" class="text-muted ms-3"></p>
+                    </li>
+                    <li>
+                      <h5 class="badge badge-phoenix badge-phoenix-warning">Other</h5>
+                      <p id="otherTech" class="text-muted ms-3"></p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="mt-3">
+                  <h4 class="mb-1">Target Respondents</h4>
+                  <h5 id="targetRespondents" class="text-body-tertiary fw-semibold text-word-break text-justify"></h5>
+                </div>
+                <div class="mt-3">
+                  <h4 class="mb-2">Features</h4>
+                  <ul id="featureList" class="list-unstyled ms-3">
+                    <!-- Features will be dynamically added here -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- END Div Wrapper Content -->
+    <!-- Footer Section -->
+    <section class="col-md-12 d-flex justify-content-center p-0 mt-12">
+      <footer class="footer position-absolute">
+        <div class="row g-0 justify-content-between align-items-center h-100">
+          <div class="col-12 col-md-12 text-center">
+            <p class="mb-0 mt-2 mt-sm-0 text-body">All Rights Reserved<span
+                class="d-none d-sm-inline-block"></span><span class="d-none d-sm-inline-block mx-1">|</span><br
+                class="d-sm-none" />2024 &copy;
+              <a class="mx-1" id="footerback-to-top">
+                <span class="navTitleProgColor fw-bold">Capston.</span><span class="navTitleDevColor fw-bold">Gen</span>
+              </a>
+            </p>
+          </div>
+          <div class="col-12 col-md-12 text-center">
+            <p class="mb-0 text-body-tertiary text-opacity-85">v1.0.0</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- END Footer Section -->
+    <!-- BTN back to Top -->
+    <div class="support-chat-container back-to-top" id="back-to-top">
+      <div class="container-fluid support-chat"></div>
+      <button class="btn p-0 border border-translucent btn-support-chat border-1"
+        style="width: 50px; height: 50px; background-color: none !important;">
+        <span class="fa-solid fa-chevron-up text-primary fs-7"></span>
+      </button>
+    </div>
+    <!-- END BTN back to Top -->
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="./scripts/js/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/js/popper.min.js"></script>
+    <script src="./scripts/js/bootstrap.min.js"></script>
+    <script src="./scripts/js/anchor.min.js"></script>
+    <script src="./scripts/js/is.min.js"></script>
+    <script src="./scripts/js/all.min.js"></script>
+    <script src="./scripts/js/lodash.min.js"></script>
+    <script src="./scripts/js/list.min.js"></script>
+    <script src="./scripts/js/feather.min.js"></script>
+    <script src="./scripts/js/dayjs.min.js"></script>
+    <script src="./scripts/js/phoenix.js"></script>
+    <script src="./scripts/js/echarts.min.js"></script>
+    <script src="./scripts/js/leaflet.js"></script>
+    <script src="./scripts/js/leaflet.markercluster.js"></script>
+    <script src="./scripts/js/leaflet-tilelayer-colorfilter.min.js"></script>
+    <script src="./scripts/js/custom.js"></script>
+    <script src="./scripts/js/constant.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts/js/lib/stats.js"></script>
+    <script src="./scripts/js/script.js"></script>
+    <!-- END Footer Section -->
+  </main>
+  <!-- END Footer Section -->
+</body>
+
+</html>
