@@ -1212,3 +1212,13 @@ body {
 #generateBtn{
     background-color: #306263;
 }
+
+.svg--idea {
+    display: inline-block;
+    margin: 0rem 0rem 0rem 0rem;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://img.icons8.com/?size=100&id=12244&format=png&color=000000");
+}

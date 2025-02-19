@@ -1,0 +1,838 @@
+[
+    {
+        "title": "PicTsur: A Web-Based Photo Booth with Customizable Backgrounds",
+        "industry": "Photography & Media",
+        "application_type": "Web",
+        "features": [
+            "Live camera capture with background customization",
+            "Multiple themed background options",
+            "Instant photo preview before download",
+            "Photo download in high resolution",
+            "User-friendly interface for seamless navigation",
+            "Social media sharing integration",
+            "Auto-adjustment for different screen sizes",
+            "Secure cloud storage for captured photos"
+        ],
+        "tech_stack": {
+            "frontend": ["HTML", "CSS", "JavaScript", "React.js"],
+            "backend": ["Node.js", "Express.js"],
+            "database": ["MongoDB", "Firebase"],
+            "other": ["WebRTC", "Cloudinary"]
+        },
+        "target_respondents": ["Event organizers", "Photographers", "Social media users", "Businesses with branding needs"]
+    },
+    {
+        "title": "SmartQueue: AI-Powered Virtual Queue Management System",
+        "industry": "Retail & Customer Service",
+        "application_type": "Web & Mobile",
+        "features": [
+            "AI-powered queue time estimation",
+            "Real-time queue status tracking",
+            "Automated ticket generation",
+            "SMS and email notifications for queue updates",
+            "Admin dashboard for queue management",
+            "User-friendly mobile and web interface",
+            "Data analytics for peak hour predictions",
+            "Multi-branch support for businesses"
+        ],
+        "tech_stack": {
+            "frontend": ["Vue.js", "Bootstrap"],
+            "backend": ["Python", "Django", "FastAPI"],
+            "database": ["PostgreSQL", "Redis"],
+            "other": ["Twilio", "Google Maps API"]
+        },
+        "target_respondents": ["Business owners", "Hospital administrators", "Government offices", "Banks"]
+    },
+    {
+        "title": "EduTrack: An Online Learning Progress Tracker for Students",
+        "industry": "Education & E-Learning",
+        "application_type": "Web & Mobile",
+        "features": [
+            "Personalized student learning progress dashboard",
+            "Automated grade tracking and reporting",
+            "Assignment and deadline reminders",
+            "AI-powered study recommendations",
+            "Teacher-student communication module",
+            "Gamification with badges and rewards",
+            "Parent access for student monitoring",
+            "Cloud-based document storage for assignments"
+        ],
+        "tech_stack": {
+            "frontend": ["Angular", "Material UI"],
+            "backend": ["Node.js", "NestJS"],
+            "database": ["MySQL", "Firebase"],
+            "other": ["Google Drive API", "Socket.io"]
+        },
+        "target_respondents": ["Students", "Teachers", "School administrators", "Parents"]
+    },
+    {
+        "title": "MediSync: A Cloud-Based Medical Appointment and Records System",
+        "industry": "Healthcare & Telemedicine",
+        "application_type": "Web & Mobile",
+        "features": [
+            "Online doctor appointment scheduling",
+            "Electronic medical records management",
+            "Automated appointment reminders",
+            "Secure patient-doctor messaging system",
+            "Telemedicine support for virtual consultations",
+            "Integration with pharmacies for prescriptions",
+            "Data encryption for secure medical records",
+            "Multi-clinic and hospital support"
+        ],
+        "tech_stack": {
+            "frontend": ["React.js", "Tailwind CSS"],
+            "backend": ["C#", "ASP.NET Core"],
+            "database": ["SQL Server", "MongoDB"],
+            "other": ["Twilio", "Stripe"]
+        },
+        "target_respondents": ["Doctors", "Patients", "Hospital administrators", "Pharmacies"]
+    },
+    {
+        "title": "EcoRoute: A Smart Navigation App for Eco-Friendly Travel",
+        "industry": "Transportation & Environment",
+        "application_type": "Mobile",
+        "features": [
+            "AI-powered route suggestions for lower carbon emissions",
+            "Integration with public transportation schedules",
+            "Real-time traffic and weather updates",
+            "Carpooling and bike-sharing recommendations",
+            "Carbon footprint tracker for each trip",
+            "Offline navigation mode",
+            "User reviews and feedback on routes",
+            "Multi-modal trip planning"
+        ],
+        "tech_stack": {
+            "frontend": ["Flutter", "React.js"],
+            "backend": ["Node.js", "Express.js"],
+            "database": ["Firebase", "PostgreSQL"],
+            "other": ["Google Maps API", "OpenWeather API"]
+        },
+        "target_respondents": ["Commuters", "Travelers", "City planners", "Environmental advocates"]
+    },
+    {
+        "title": "ShopEase: AI-Driven Personalized Shopping Assistant",
+        "industry": "E-Commerce & Retail",
+        "application_type": "Web & Mobile",
+        "features": [
+            "AI-powered product recommendations",
+            "Price comparison from multiple stores",
+            "Discount and promo alert notifications",
+            "Wishlist and shopping cart integration",
+            "Augmented reality (AR) product preview",
+            "Voice search and chatbot support",
+            "Secure payment gateway integration",
+            "Order tracking and delivery updates"
+        ],
+        "tech_stack": {
+            "frontend": ["Next.js", "Bootstrap"],
+            "backend": ["Django", "FastAPI"],
+            "database": ["PostgreSQL", "MongoDB"],
+            "other": ["Stripe", "AWS Rekognition"]
+        },
+        "target_respondents": ["Online shoppers", "Retailers", "E-commerce businesses", "Bargain hunters"]
+    },
+    {
+        "title": "FarmConnect: A Digital Marketplace for Local Farmers and Consumers",
+        "industry": "Agriculture & Food Industry",
+        "application_type": "Web",
+        "features": [
+            "Online marketplace for fresh produce",
+            "Direct farmer-to-consumer transactions",
+            "Real-time inventory and pricing updates",
+            "Secure online payment integration",
+            "User rating and review system",
+            "Logistics and delivery coordination",
+            "Weather forecast integration for farmers",
+            "Government subsidy and grant tracking"
+        ],
+        "tech_stack": {
+            "frontend": ["Vue.js", "Vuetify"],
+            "backend": ["Laravel (PHP)"],
+            "database": ["MySQL"],
+            "other": ["Google Maps API", "Stripe"]
+        },
+        "target_respondents": ["Local farmers", "Consumers", "Grocery stores", "Food suppliers"]
+    },
+    {
+        "title": "HomeGuardian: IoT-Based Smart Home Security System",
+        "industry": "Smart Home & Security",
+        "application_type": "Web & Mobile",
+        "features": [
+            "Real-time home security monitoring",
+            "Motion detection with instant alerts",
+            "Smart door lock and access control",
+            "Remote live camera feed access",
+            "AI-based facial recognition for trusted visitors",
+            "Automated emergency contact notifications",
+            "Energy-efficient smart lighting integration",
+            "Cloud storage for security footage"
+        ],
+        "tech_stack": {
+            "frontend": ["React.js", "Material UI"],
+            "backend": ["Node.js", "Express.js"],
+            "database": ["MongoDB"],
+            "other": ["Raspberry Pi", "AWS IoT", "OpenCV"]
+        },
+        "target_respondents": ["Homeowners", "Property managers", "Security companies", "Smart home enthusiasts"]
+    },
+    {
+        "title": "FitFusion: A Personalized AI Fitness and Diet Planner",
+        "industry": "Health & Wellness",
+        "application_type": "Mobile",
+        "features": [
+            "AI-powered personalized workout plans",
+            "Custom diet and nutrition tracking",
+            "Calorie and macronutrient calculator",
+            "Integration with fitness wearables",
+            "Virtual personal trainer with voice guidance",
+            "Progress tracking with analytics dashboard",
+            "Community challenges and leaderboard",
+            "Meal prep and grocery list generator"
+        ],
+        "tech_stack": {
+            "frontend": ["React Native", "Tailwind CSS"],
+            "backend": ["FastAPI (Python)"],
+            "database": ["Firebase"],
+            "other": ["Google Fit API", "AWS Lambda"]
+        },
+        "target_respondents": ["Fitness enthusiasts", "Trainers", "Nutritionists", "Athletes"]
+    },
+    {
+        "title": "SmartProperty: AI-Powered Real Estate Price Prediction System",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "AI-based property price estimation",
+          "Market trend analysis",
+          "Comparison of similar properties",
+          "Historical price tracking",
+          "User-friendly dashboard for property insights",
+          "Predictive analytics for property value changes",
+          "Interactive property map view",
+          "Secure user authentication"
+        ],
+        "tech_stack": {
+          "frontend": ["React.js", "Bootstrap"],
+          "backend": ["Django", "Python"],
+          "database": ["PostgreSQL"],
+          "other": ["Machine Learning", "Google Maps API"]
+        },
+        "target_respondents": ["Real estate investors", "Property buyers", "Real estate agents", "Financial analysts"]
+      },
+      {
+        "title": "HomeScout: An Interactive Property Finder with Virtual Tours",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Advanced property search with filters",
+          "3D virtual property tours",
+          "Real-time property availability updates",
+          "Favorites and wishlist feature",
+          "Integrated contact system with agents",
+          "Location-based property suggestions",
+          "Mortgage calculator tool",
+          "User reviews and ratings"
+        ],
+        "tech_stack": {
+          "frontend": ["Vue.js", "Tailwind CSS"],
+          "backend": ["Node.js", "Express.js"],
+          "database": ["MongoDB"],
+          "other": ["Three.js", "Google Maps API"]
+        },
+        "target_respondents": ["Home buyers", "Real estate agents", "Property investors", "Rental seekers"]
+      },
+      {
+        "title": "LeaseEase: Online Property Leasing and Rental Management System",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Online lease agreement generation",
+          "Automated rent payment system",
+          "Tenant and landlord management",
+          "Property maintenance request system",
+          "Document storage for lease contracts",
+          "Automated reminders for rent payments",
+          "Expense tracking for landlords",
+          "Multi-property management support"
+        ],
+        "tech_stack": {
+          "frontend": ["Angular", "Material UI"],
+          "backend": ["Laravel (PHP)"],
+          "database": ["MySQL"],
+          "other": ["Stripe API", "Twilio SMS API"]
+        },
+        "target_respondents": ["Landlords", "Tenants", "Property managers", "Real estate firms"]
+      },
+      {
+        "title": "RealtyConnect: A Web-Based Real Estate Marketplace for Buyers and Sellers",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Property listing and browsing",
+          "Buyer-seller direct messaging",
+          "Real-time price negotiation",
+          "Secure transaction processing",
+          "Property comparison tool",
+          "User verification and authentication",
+          "AI-powered property recommendations",
+          "Advertisement and premium listing options"
+        ],
+        "tech_stack": {
+          "frontend": ["Next.js", "Bootstrap"],
+          "backend": ["Spring Boot (Java)"],
+          "database": ["PostgreSQL"],
+          "other": ["AWS S3", "Google Maps API"]
+        },
+        "target_respondents": ["Home buyers", "Real estate agents", "Property investors", "Sellers"]
+      },
+      {
+        "title": "PropTrack: Real-Time Property Value Monitoring and Investment Insights",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Real-time property price tracking",
+          "Investment potential analysis",
+          "Historical price trends",
+          "Personalized investment recommendations",
+          "AI-driven risk assessment",
+          "Custom alerts for price changes",
+          "Interactive analytics dashboard",
+          "Secure user profile management"
+        ],
+        "tech_stack": {
+          "frontend": ["React.js", "Bootstrap"],
+          "backend": ["Flask (Python)"],
+          "database": ["PostgreSQL"],
+          "other": ["Machine Learning", "Google Finance API"]
+        },
+        "target_respondents": ["Real estate investors", "Property buyers", "Financial analysts", "Brokers"]
+      },
+      {
+        "title": "HomeBid: Online Real Estate Bidding and Auction Platform",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Real-time property bidding",
+          "Auction countdown timer",
+          "Secure online payment integration",
+          "Bidding history tracking",
+          "Automated winner selection",
+          "Seller property listing management",
+          "User identity verification",
+          "Integrated messaging for buyers and sellers"
+        ],
+        "tech_stack": {
+          "frontend": ["Vue.js", "Vuetify"],
+          "backend": ["Node.js", "Express.js"],
+          "database": ["MongoDB"],
+          "other": ["Stripe API", "Twilio SMS API"]
+        },
+        "target_respondents": ["Property investors", "Auctioneers", "Home buyers", "Real estate firms"]
+      },
+      {
+        "title": "LandlordHub: A Web Application for Property Management and Tenant Tracking",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Automated tenant record management",
+          "Rent collection and payment tracking",
+          "Maintenance request handling",
+          "Document storage for lease agreements",
+          "Automated notifications for due payments",
+          "Expense and revenue reporting",
+          "Multi-property management dashboard",
+          "Tenant feedback and complaint system"
+        ],
+        "tech_stack": {
+          "frontend": ["React.js", "Material UI"],
+          "backend": ["Django", "Python"],
+          "database": ["PostgreSQL"],
+          "other": ["Stripe API", "AWS S3"]
+        },
+        "target_respondents": ["Landlords", "Property managers", "Tenants", "Real estate firms"]
+      },
+      {
+        "title": "TitleVerify: Blockchain-Based Real Estate Title and Ownership Verification",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Blockchain-secured property title storage",
+          "Automated property ownership verification",
+          "Tamper-proof title history tracking",
+          "Smart contract integration for title transfers",
+          "Decentralized ledger for property records",
+          "Multi-user access with role-based permissions",
+          "AI-powered fraud detection",
+          "Secure document upload and validation"
+        ],
+        "tech_stack": {
+          "frontend": ["Next.js", "Tailwind CSS"],
+          "backend": ["Ethereum Blockchain", "Node.js"],
+          "database": ["IPFS"],
+          "other": ["Smart Contracts", "Metamask Integration"]
+        },
+        "target_respondents": ["Government agencies", "Real estate firms", "Home buyers", "Lawyers"]
+      },
+      {
+        "title": "GreenHomes: A Sustainability Score and Energy Efficiency Analyzer for Properties",
+        "industry": "Real Estate",
+        "application_type": "Web",
+        "features": [
+          "Energy efficiency rating for properties",
+          "Carbon footprint analysis",
+          "Renewable energy integration assessment",
+          "Sustainability certification tracking",
+          "Real-time energy consumption monitoring",
+          "Home improvement recommendations",
+          "Government incentives and rebate tracking",
+          "User dashboard with eco-friendly property insights"
+        ],
+        "tech_stack": {
+          "frontend": ["Vue.js", "Bootstrap"],
+          "backend": ["Flask (Python)"],
+          "database": ["PostgreSQL"],
+          "other": ["IoT Integration", "Google Maps API"]
+        },
+        "target_respondents": ["Homeowners", "Real estate developers", "Government agencies", "Eco-conscious buyers"]
+      },
+      {
+        "title": "PropFinder: AI-Powered Mobile Property Search",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "AI-driven property recommendations",
+          "GPS-based nearby property search",
+          "Virtual property tours",
+          "Saved searches and notifications",
+          "User-agent direct messaging",
+          "Secure login and user verification",
+          "Property comparison tool",
+          "Mortgage calculator"
+        ],
+        "tech_stack": {
+          "frontend": ["Flutter"],
+          "backend": ["Firebase", "Node.js"],
+          "database": ["Firestore"],
+          "other": ["Google Maps API", "TensorFlow"]
+        },
+        "target_respondents": ["Home buyers", "Real estate agents", "Investors", "Property sellers"]
+      },
+      {
+        "title": "RentEase: Mobile App for Renters and Landlords",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Property listings with images and descriptions",
+          "Automated rent payment and tracking",
+          "Rental agreement management",
+          "Tenant and landlord chat support",
+          "Maintenance request submission",
+          "Push notifications for payment reminders",
+          "Multi-property management dashboard",
+          "Review and rating system"
+        ],
+        "tech_stack": {
+          "frontend": ["React Native"],
+          "backend": ["Django", "REST API"],
+          "database": ["PostgreSQL"],
+          "other": ["Stripe API", "Twilio SMS API"]
+        },
+        "target_respondents": ["Landlords", "Tenants", "Property managers"]
+      },
+      {
+        "title": "HouseBid: Mobile-Based Real Estate Auction App",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Live property auctions with real-time bidding",
+          "Auction countdown timer",
+          "Automated winner selection",
+          "Secure payment gateway integration",
+          "Property comparison tool",
+          "User verification and fraud prevention",
+          "Push notifications for bid updates",
+          "Property watchlist and alerts"
+        ],
+        "tech_stack": {
+          "frontend": ["Flutter"],
+          "backend": ["Spring Boot", "Java"],
+          "database": ["MySQL"],
+          "other": ["Stripe API", "Firebase Authentication"]
+        },
+        "target_respondents": ["Investors", "Home buyers", "Auctioneers", "Real estate firms"]
+      },
+      {
+        "title": "RealtyNavigator: Augmented Reality-Based Property Viewing",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Augmented reality (AR) property previews",
+          "Location-based real estate recommendations",
+          "3D interactive floor plans",
+          "Integrated property details and pricing",
+          "Nearby amenities and landmarks visualization",
+          "Mortgage and affordability calculator",
+          "User account and favorites list",
+          "Secure login and profile management"
+        ],
+        "tech_stack": {
+          "frontend": ["React Native", "ARKit", "ARCore"],
+          "backend": ["Node.js", "Express.js"],
+          "database": ["MongoDB"],
+          "other": ["Google Maps API", "Firebase"]
+        },
+        "target_respondents": ["Real estate agents", "Buyers", "Investors", "Rental seekers"]
+      },
+      {
+        "title": "LeasePro: Mobile-Based Lease and Property Management App",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Automated lease contract generation",
+          "Tenant application and screening",
+          "Online rent payment and invoicing",
+          "Maintenance request tracking",
+          "Document storage and retrieval",
+          "Expense tracking for landlords",
+          "Multi-property dashboard",
+          "Push notifications for due dates"
+        ],
+        "tech_stack": {
+          "frontend": ["Flutter"],
+          "backend": ["Django", "REST API"],
+          "database": ["PostgreSQL"],
+          "other": ["Stripe API", "Twilio SMS API"]
+        },
+        "target_respondents": ["Landlords", "Property managers", "Tenants"]
+      },
+      {
+        "title": "QuickSell: A Mobile Marketplace for Real Estate",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Property listing and search",
+          "Buyer-seller direct messaging",
+          "Price negotiation and offer system",
+          "Secure escrow-based transactions",
+          "Seller property management dashboard",
+          "Push notifications for new listings",
+          "Location-based property search",
+          "User verification and fraud detection"
+        ],
+        "tech_stack": {
+          "frontend": ["React Native"],
+          "backend": ["Node.js", "Express.js"],
+          "database": ["MongoDB"],
+          "other": ["Stripe API", "Google Maps API"]
+        },
+        "target_respondents": ["Home buyers", "Sellers", "Real estate agents"]
+      },
+      {
+        "title": "HomeScout: AI-Powered Smart Home Finder",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "AI-powered property recommendations",
+          "Voice-enabled property search",
+          "Interactive property map view",
+          "Real-time mortgage affordability calculator",
+          "User-agent direct messaging",
+          "Property comparison tool",
+          "Saved searches and push notifications",
+          "Secure user authentication"
+        ],
+        "tech_stack": {
+          "frontend": ["Flutter"],
+          "backend": ["Firebase", "Node.js"],
+          "database": ["Firestore"],
+          "other": ["Google Maps API", "Machine Learning"]
+        },
+        "target_respondents": ["Home buyers", "Investors", "Real estate agents"]
+      },
+      {
+        "title": "LandMark: Mobile Land Ownership and Verification App",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Blockchain-secured property title verification",
+          "Real-time land ownership history tracking",
+          "Smart contract integration for title transfers",
+          "Tamper-proof digital land records",
+          "QR code scanning for property information",
+          "Document upload and verification",
+          "User role-based access control",
+          "Multi-user authentication for agencies"
+        ],
+        "tech_stack": {
+          "frontend": ["React Native"],
+          "backend": ["Ethereum Blockchain", "Node.js"],
+          "database": ["IPFS"],
+          "other": ["Smart Contracts", "Metamask Integration"]
+        },
+        "target_respondents": ["Government agencies", "Real estate firms", "Landowners"]
+      },
+      {
+        "title": "GreenLiving: Mobile App for Sustainable and Smart Real Estate",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "Sustainability score for properties",
+          "Energy consumption tracking",
+          "Carbon footprint analysis",
+          "Home improvement recommendations",
+          "Smart home automation integration",
+          "Government rebates and incentives tracking",
+          "Eco-friendly property recommendations",
+          "User dashboard for environmental impact tracking"
+        ],
+        "tech_stack": {
+          "frontend": ["Flutter"],
+          "backend": ["Node.js", "Express.js"],
+          "database": ["MongoDB"],
+          "other": ["IoT Integration", "Google Maps API"]
+        },
+        "target_respondents": ["Homeowners", "Real estate developers", "Eco-conscious buyers"]
+      },
+      {
+        "title": "SmartRent: AI-Powered Mobile Rental Assistant",
+        "industry": "Real Estate",
+        "application_type": "Mobile",
+        "features": [
+          "AI-driven rental property recommendations",
+          "Chatbot support for tenant inquiries",
+          "Automated rent payment system",
+          "Lease agreement tracking",
+          "Maintenance request and response system",
+          "Tenant screening and verification",
+          "Multi-property management for landlords",
+          "Push notifications for payment reminders"
+        ],
+        "tech_stack": {
+          "frontend": ["React Native"],
+          "backend": ["Django", "REST API"],
+          "database": ["PostgreSQL"],
+          "other": ["Stripe API", "Twilio SMS API"]
+        },
+        "target_respondents": ["Renters", "Landlords", "Property managers"]
+      },
+      {
+        "title": "RealtyCRM: A Desktop-Based Real Estate Client Management System",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "Client and property management dashboard",
+          "Automated follow-up reminders",
+          "Real-time lead tracking and analytics",
+          "Email and SMS integration",
+          "Document and contract storage",
+          "Multi-user role-based access",
+          "Secure database encryption",
+          "Reporting and performance analysis"
+        ],
+        "tech_stack": {
+          "frontend": ["WPF", "Electron.js"],
+          "backend": ["C#", ".NET Core"],
+          "database": ["SQL Server"],
+          "other": ["Twilio API", "SMTP Integration"]
+        },
+        "target_respondents": ["Real estate agents", "Property managers", "Agencies"]
+      },
+      {
+        "title": "PropTrack: A Desktop Property Sales and Inventory System",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "Property listing and tracking",
+          "Client and agent assignment",
+          "Automated contract generation",
+          "Payment and commission tracking",
+          "Mortgage and loan calculations",
+          "Graphical reports and analytics",
+          "Secure login and user management",
+          "Exportable reports (PDF, Excel)"
+        ],
+        "tech_stack": {
+          "frontend": ["JavaFX", "C# WinForms"],
+          "backend": ["Spring Boot", ".NET"],
+          "database": ["MySQL"],
+          "other": ["JasperReports", "Twilio API"]
+        },
+        "target_respondents": ["Real estate agencies", "Property developers", "Home buyers"]
+      },
+      {
+        "title": "SmartLease: A Desktop-Based Lease and Rental Agreement Manager",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "Tenant and landlord database",
+          "Automated lease agreement generation",
+          "Rental payment tracking",
+          "Maintenance request logging",
+          "User access and role management",
+          "Report generation and analytics",
+          "Secure data storage",
+          "Notification and email alerts"
+        ],
+        "tech_stack": {
+          "frontend": ["Electron.js", "WPF"],
+          "backend": ["C#", ".NET Core"],
+          "database": ["PostgreSQL"],
+          "other": ["SMTP Integration", "Stripe API"]
+        },
+        "target_respondents": ["Landlords", "Property managers", "Real estate firms"]
+      },
+      {
+        "title": "RealView: A 3D Property Visualization Software",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "3D model viewing for properties",
+          "Customizable interior and exterior design",
+          "Virtual walkthroughs and animations",
+          "Real-time environment adjustments",
+          "Cloud-based model storage",
+          "File import/export (OBJ, FBX, CAD)",
+          "Real-time collaboration for teams",
+          "VR headset compatibility"
+        ],
+        "tech_stack": {
+          "frontend": ["Unity", "C#"],
+          "backend": ["Node.js", "Firebase"],
+          "database": ["MongoDB"],
+          "other": ["OpenGL", "VR SDK"]
+        },
+        "target_respondents": ["Real estate developers", "Interior designers", "Home buyers"]
+      },
+      {
+        "title": "HomeValuator: AI-Powered Property Valuation Desktop App",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "AI-driven property price estimation",
+          "Historical price data analysis",
+          "Market trend visualization",
+          "Integration with government property databases",
+          "Customizable valuation parameters",
+          "Secure data encryption",
+          "Export reports in PDF format",
+          "User-friendly interface"
+        ],
+        "tech_stack": {
+          "frontend": ["Electron.js", "WPF"],
+          "backend": ["Python", "Flask"],
+          "database": ["PostgreSQL"],
+          "other": ["AI/ML (TensorFlow)", "Data Visualization Libraries"]
+        },
+        "target_respondents": ["Property appraisers", "Real estate investors", "Home buyers"]
+      },
+      {
+        "title": "LandManager: Desktop-Based Land Ownership and Registration System",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "Land title registry and verification",
+          "Digital document storage",
+          "Automated ownership transfer processing",
+          "Tamper-proof blockchain integration",
+          "User authentication and verification",
+          "Land boundary mapping and GIS integration",
+          "Reporting and export options",
+          "Secure user role management"
+        ],
+        "tech_stack": {
+          "frontend": ["JavaFX", "Electron.js"],
+          "backend": ["C#", ".NET"],
+          "database": ["SQL Server"],
+          "other": ["Blockchain (Ethereum)", "GIS API"]
+        },
+        "target_respondents": ["Government agencies", "Landowners", "Legal professionals"]
+      },
+      {
+        "title": "SmartBroker: A CRM System for Real Estate Brokers",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "Client and property listing database",
+          "Automated follow-up scheduling",
+          "Sales performance tracking",
+          "Email and SMS campaign integration",
+          "Commission tracking and calculations",
+          "Multi-user role-based access",
+          "Graphical analytics and dashboards",
+          "Secure backup and cloud sync"
+        ],
+        "tech_stack": {
+          "frontend": ["WPF", "JavaFX"],
+          "backend": ["C#", "Spring Boot"],
+          "database": ["PostgreSQL"],
+          "other": ["Twilio API", "SMTP Integration"]
+        },
+        "target_respondents": ["Real estate brokers", "Agents", "Agencies"]
+      },
+      {
+        "title": "PropInvest: A Desktop App for Real Estate Investment Analysis",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "ROI and cash flow calculations",
+          "Risk assessment and scoring",
+          "Market trend analysis",
+          "Portfolio management and tracking",
+          "Automated investment recommendations",
+          "Financial forecasting tools",
+          "Graphical reports and exportable data",
+          "Secure multi-user access"
+        ],
+        "tech_stack": {
+          "frontend": ["Electron.js", "WPF"],
+          "backend": ["Python", "Flask"],
+          "database": ["MySQL"],
+          "other": ["Data Visualization (Matplotlib, Seaborn)"]
+        },
+        "target_respondents": ["Real estate investors", "Financial analysts", "Property developers"]
+      },
+      {
+        "title": "RealtySecure: A Cybersecurity Application for Real Estate Transactions",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "End-to-end encryption for documents",
+          "Two-factor authentication for logins",
+          "Tamper-proof digital contracts",
+          "Secure escrow integration",
+          "Real-time fraud detection alerts",
+          "Audit log and user activity tracking",
+          "Data backup and recovery options",
+          "Compliance with real estate data regulations"
+        ],
+        "tech_stack": {
+          "frontend": ["WPF", "Electron.js"],
+          "backend": ["C#", ".NET Core"],
+          "database": ["SQL Server"],
+          "other": ["Blockchain (Ethereum)", "Encryption APIs"]
+        },
+        "target_respondents": ["Real estate firms", "Lawyers", "Government agencies"]
+      },
+      {
+        "title": "BuildEstimator: A Desktop-Based Real Estate Construction Cost Estimator",
+        "industry": "Real Estate",
+        "application_type": "Desktop",
+        "features": [
+          "Automated cost estimation for materials and labor",
+          "Customizable construction templates",
+          "Real-time budget tracking",
+          "Integration with supplier databases",
+          "Material inventory management",
+          "Graphical project timeline tracking",
+          "Multi-user role-based permissions",
+          "Export reports in PDF/Excel"
+        ],
+        "tech_stack": {
+          "frontend": ["JavaFX", "Electron.js"],
+          "backend": ["C#", ".NET"],
+          "database": ["PostgreSQL"],
+          "other": ["Data Visualization APIs"]
+        },
+        "target_respondents": ["Contractors", "Real estate developers", "Construction firms"]
+      }
+]
