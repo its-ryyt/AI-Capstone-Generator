@@ -915,7 +915,7 @@ function updateFeatures(features) {
     features.forEach((feature, index) => {
         const listItem = document.createElement("li");
         listItem.innerText = `${index + 1}. ${feature}`;
-        listItem.classList.add("text-body-tertiary", "fw-semibold", "text-word-break", "text-justify");
+        listItem.classList.add("text-body-tertiary", "fw-semibold", "text-word-break");
         featureList.appendChild(listItem);
     });
 }
